@@ -24,12 +24,3 @@ curl --header 'Content-Type: application/json' \
      --data '{"message": "parlons de musique"}' \
      'http://localhost:8000/answer'
 ```
-
-## Roadmap
-
-- [ ] Add a way to call Prolog predicate from specific intents
-- [ ] Add NLP functions to improve chatbot (Levenshtein, NER...)
-- [ ] Create a multilingual chatbot
-- [ ] Allow to use facts from specific intents
-- [ ] Add waterfall intents
-- [ ] Production deployment
